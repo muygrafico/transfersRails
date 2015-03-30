@@ -41,5 +41,10 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  # Annotations of the columns info within the model file
+  gem 'annotate', '~> 2.6.8'
+  # Better view for the queries in the rails console
+  gem 'hirb', '~> 0.7.3'
 end
 
